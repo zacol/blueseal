@@ -1,3 +1,1 @@
-/*
-* Bluseal is an simple framework for front-end projects.
-*/
+# <img src="http://rawgithub.com/zacol/blueseal/master/blueseal.png" alt="Blueseal" title="Blueseal">
