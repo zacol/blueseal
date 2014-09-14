@@ -9,7 +9,7 @@ If you would like to share your knowledge, please feel free to contribute. If yo
 ## Development
 
 This package is developed and maintained by
-[Jacek Spławski](http://twitter.com/zacol) and [more contributors](https://github.com/zacol/blueseal/graphs/contributors).
+[Jacek Spławski](http://jaceksplawski.pl) and [more contributors](https://github.com/zacol/blueseal/graphs/contributors).
 
 ## License
 
