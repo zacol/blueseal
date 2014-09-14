@@ -1,0 +1,22 @@
+{
+  "name": "blueseal",
+  "title": "Blueseal",
+  "description": "Bluseal is an simple framework for front-end projects.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/zacol/blueseal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacol/blueseal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zacol/blueseal/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0"
+  }
+}
