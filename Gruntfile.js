@@ -20,6 +20,7 @@ module.exports = function(grunt) {
   // Load the plugin that provides the "jshint" task.
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-notify');
 
   // Default task(s).
   grunt.registerTask('default', ['jshint', 'sass']);
