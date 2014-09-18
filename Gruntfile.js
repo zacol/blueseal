@@ -6,14 +6,22 @@ module.exports = function(grunt) {
     jshint: {
       files: {
         src: ['js/*.js']
-      },
+      }
+    },
+    sass: {
+      dist: {
+        files: {
+          'tmp/style.css': 'sass/style.sass'
+        }
+      }
     }
   });
 
   // Load the plugin that provides the "jshint" task.
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-sass');
 
   // Default task(s).
-  grunt.registerTask('default', ['jshint']);
+  grunt.registerTask('default', ['jshint', 'sass']);
 
 };
