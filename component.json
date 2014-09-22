@@ -2,8 +2,7 @@
   "name": "blueseal",
   "version": "0.0.1",
   "dependencies": {
-    "bootstrap-sass-official": "~3.2.0",
     "jquery": "1.11.1",
-    "requirejs": "latest"
+    "requirejs": "2.1.15"
   }
 }
