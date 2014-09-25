@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "dependencies": {
     "jquery": "1.11.1",
+    "respond": "1.4.2",
+    "html5shiv": "3.7.2",
     "requirejs": "2.1.15"
   }
 }
