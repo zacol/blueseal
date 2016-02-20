@@ -1,0 +1,64 @@
+{
+  "root": {
+    "src": "./dev",
+    "dest": "./_prod"
+  },
+
+  "tasks": {
+    "browserSync": {
+      "server": {
+        "baseDir": "_prod"
+      }
+    },
+
+    "static": {
+      "src": "static",
+      "dest": "static"
+    },
+
+    "templates": {
+      "src": "templates",
+      "dest": "./",
+      "htmlmin": {
+        "collapseWhitespace": true
+      },
+      "extensions": ["html"],
+      "excludeFolders": ["layouts", "shared", "macros", "data"]
+    },
+
+    "styles": {
+      "src": "styles",
+      "dest": "styles",
+      "autoprefixer": {
+        "browsers": ["last 3 version"]
+      },
+      "extensions": ["sass", "scss", "css"]
+    },
+
+    "scripts": {
+      "src": "scripts",
+      "dest": "scripts",
+      "extractSharedJs": true,
+      "entry": "./main.js",
+      "extensions": ["js"]
+    },
+
+    "images": {
+      "src": "images",
+      "dest": "images",
+      "extensions": ["jpg", "png", "svg", "gif"]
+    },
+
+    "media": {
+      "src": "media",
+      "dest": "media",
+      "extensions": ["jpg", "png", "svg", "gif"]
+    },
+
+    "fonts": {
+      "src": "fonts",
+      "dest": "fonts",
+      "extensions": ["woff2", "woff", "eot", "ttf", "svg"]
+    }
+  }
+}
